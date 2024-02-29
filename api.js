@@ -262,7 +262,7 @@ global.rpgshop = { // Tienda
       berlian: '♦️ Joya',
       kyubi: '🌀 Magia',
       gold: '👑 Oro',
-      money: '👾 MysticCoins',
+      money: '👾 GokuCoins',
       tiketcoin: '🎫 mystic Tickers',
       stamina: '✨ Energía',
       potion: '🥤 Poción',
