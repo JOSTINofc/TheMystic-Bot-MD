@@ -12,9 +12,9 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 //m.react('💫');
     await conn.sendMessage(m.chat, { react: { text: '✨', key: m.key } })
   let txt =`┏•─────✧─────••
-┣┅⟣✦ 𝗛𝗼𝗹𝗮👋, 𝗦𝗼𝘆 𝗚𝗼𝗸𝘂𝗕𝗼𝘁𝗟𝗶𝘁𝗲-𝗠𝗗
+┣┅⟣✦ 𝗛𝗼𝗹𝗮👋, 𝗦𝗼𝘆 𝗚𝗼𝗸𝘂𝗕𝗼𝘁-𝗠𝗗
 ┣┅⟣✦ 𝗘𝗻 𝗴𝗿𝘂𝗽𝗼𝘀: 𝙾𝚆𝙽𝙴𝚁  
-┣┅⟣✦ 𝗢𝘄𝗻𝗲𝗿: 𝙹𝙾𝚂𝚃𝙸𝙼 𝙾𝙵𝙲
+┣┅⟣✦ 𝗢𝘄𝗻𝗲𝗿: 𝙹𝙾𝚂𝚃𝙸𝙽 𝙾𝙵𝙲
 ┣┅⟣✦ 𝗡𝘂𝗺𝗲𝗿𝗼:+593 939 005 387
 ┣┅⟣✦ 𝗙𝗲𝗰𝗵𝗮: ${date}
 ┣┅⟣✦ 𝗟𝗶𝗻𝗱𝗼 𝗱𝗶𝗮 𝗽𝗮𝗿𝗮 𝘁𝗶
@@ -412,7 +412,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┗──── ◉ ────
 ┣📘 𝐦𝐞𝐧𝐮𝐨𝐰𝐧𝐞𝐫
 ┗•━•━•━ ◎ ━•━•━•┛`;
-   await conn.sendMessage(m.chat, {text: txt.trim(), mentions: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: {forwardingScore: 9999999, isForwarded: true, mentionedJid: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": '☆ 𝗚𝗢𝗞𝗨𝗕𝗢𝗧𝗟𝗜𝗧𝗘-𝗠𝗗 ☆', "containsAutoReply": true, "mediaType": 1, "thumbnail": [imagen6,imagen1,imagen4].getRandom(), "mediaUrl": global.gp1, "sourceUrl": global.gp1}}}, {quoted: fkon});
+   await conn.sendMessage(m.chat, {text: txt.trim(), mentions: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: {forwardingScore: 9999999, isForwarded: true, mentionedJid: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": '☆ 𝗚𝗢𝗞𝗨𝗕𝗢𝗧-𝗠𝗗 ☆', "containsAutoReply": true, "mediaType": 1, "thumbnail": [imagen6,imagen1,imagen4].getRandom(), "mediaUrl": global.gp1, "sourceUrl": global.gp1}}}, {quoted: fkon});
  // m.react('💖');
   } catch {
     conn.reply(m.chat, '[⛔] 𝗙𝗮𝗹𝗹𝗼, 𝗘𝗹 𝗺𝗲𝗻𝘂 𝘁𝗶𝗲𝗻𝗲 𝘂𝗻 𝗲𝗿𝗿𝗼𝗿 𝗽𝗼𝗿 𝗳𝗮𝘃𝗼𝗿 𝗿𝗲𝗽𝗼𝗿𝘁𝗮𝗹𝗼 𝗮𝗹 𝘀𝘁𝗮𝗳𝗳.', m);
