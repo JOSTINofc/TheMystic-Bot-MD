@@ -61,4 +61,4 @@ handler.tags = ['owner'];
 handler.command = /^(cajafuerte)$/i;
 handler.rowner = true;
 handler.fail = null;
-export default handler;
+export default handler; 
