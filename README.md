@@ -1,11 +1,5 @@
 # `𝙏𝙃𝙀 𝙈𝙔𝙎𝙏𝙄𝘾 - 𝘽𝙊𝙏` 
 
-------------------
-> **AVISO**: Yo "Bruno Sobrino", me he retirado de todo lo relacionado con el bot o temas similares, por lo que en algún momento quedará obsoleto y/o algunos comandos dejarán de funcionar. Agradezco su preferencia durante el recorrido por este mundo de los bots.
-
-> TheMystic-Bot-MD pasa a quedar en manos de colaboradores, y como principal representante Aiden_NotLogic.
-------------------
-
 ### `▢ CUENTAS OFICIALES`
 
 [ 🔗 ] https://www.atom.bio/theshadowbrokers-team
@@ -31,36 +25,8 @@
 - TIENES IDEAS DE PLUGINS O QUIERES OBTENER MAS PLUGINS? DA CLICK EN [https://github.com/theh2so4/Mystic-Plugins](https://github.com/theh2so4/Mystic-Plugins)
 
 ### `▢ AJUSTES`
-- CLONAR EL REPOSITORIO [Aqui](https://github.com/BrunoSobrino/TheMystic-Bot-MD/fork)
-- CAMBIAR NÚMERO DEL PROPIETARIO(A) [Aqui](https://github.com/BrunoSobrino/TheMystic-Bot-MD/blob/master/config.js)
-  
-### `▢ ACTIVAR EN KOYEB`
-
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=https://github.com/BrunoSobrino/TheMystic-Bot-MD&branch=master&name=mysticbot)
-  
-### `▢ ACTIVAR EN REPLIT`
-
-[![Run on Repl.it](https://repl.it/badge/github/BrunoSobrino/TheMystic-Bot-MD)](https://repl.it/github/BrunoSobrino/TheMystic-Bot-MD) 
-  
-### `▢ ACTIVAR EN RENDER`
-
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2FBrunoSobrino%2FTheMystic-Bot-MD) 
-
-### `▢ ACTIVAR EN CAFIREXOS (ANTES ZIPPONODES)`
-<a href="https://www.cafirexos.com"><img src="https://grxcwmcwbxwj.objectstorage.sa-saopaulo-1.oci.customer-oci.com/n/grxcwmcwbxwj/b/cafirexos/o/logos%2Flogo_2.png" height="125px"></a>
-- Sitio web: [cafirexos.com](https://www.cafirexos.com)
-- Dash: [dash.cafirexos.com](https://dash.cafirexos.com)
-- Panel: [panel.cafirexos.com](https://panel.cafirexos.com)
-- Documentación: [docs.cafirexos.com](https://docs.cafirexos.com)
-- Canal de WhatsApp: [whatsapp.cafirexos.com](https://whatsapp.cafirexos.com)
-
-### `▢ ACTIVAR EN BOXMINEHOST`
-<a href="https://boxmineworld.com"><img src="https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/Pre%20Bot%20Publi.png" width="450" height="240" alt="JPG"/></a>
-- Pagina Oficial: [https://boxmineworld.com](https://boxmineworld.com)
-- Dashboard: [https://dash.boxmineworld.com](https://dash.boxmineworld.com)
-- Panel: [https://panel.boxmineworld.com](https://panel.boxmineworld.com)
-- Tutorial: [https://youtu.be/eC9TfKICpcY](https://youtu.be/eC9TfKICpcY)
-- Dudas UNICAMENTE SOBRE EL HOST: [https://discord.gg/84qsr4v](https://discord.gg/84qsr4v) (Preguntar por Vicemi)
+- CLONAR EL REPOSITORIO [Aqui](https://github.com/JOSTINofc/TheMystic-Bot-MD/fork)
+- CAMBIAR NÚMERO DEL PROPIETARIO(A) [Aqui](https://github.com/JOSTINofc/TheMystic-Bot-MD/blob/master/config.js)
 
 ### `▢ ACTIVAR EN TERMUX` 
 - ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
