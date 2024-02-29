@@ -26,7 +26,7 @@ const handler = async (m, { conn, usedPrefix }) => {
   const info = ` _*< INFO - ESTADO />*_
 
  ▢ *Prop.:* 𝙱𝚢 𝙹𝚘𝚜𝚝𝚒𝚗
- ▢ *WA:* +5219992095479
+ ▢ *WA:* +593939005387
  ▢ *PayPal:* paypal.me/TheShadowBrokers133
 
  ▢ *Ping:* ${rtime}
