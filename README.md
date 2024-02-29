@@ -115,4 +115,4 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ## `▢ EDITOR & PROPIETARIO DEL BOT` 
 <a href="https://github.com/BrunoSobrino"><img src="https://github.com/BrunoSobrino.png" width="250" height="250" alt="BrunoSobrino"/></a>
   
-`TheMystic-Bot-MD - By Bruno Sobrino`
+`GokuBot-MD - By Jostin-Jostina`
