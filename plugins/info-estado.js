@@ -25,7 +25,7 @@ const handler = async (m, { conn, usedPrefix }) => {
   const wm = 'The Mystic Bot';
   const info = ` _*< INFO - ESTADO />*_
 
- ▢ *Prop.:* Bruno Sobrino
+ ▢ *Prop.:* 𝙱𝚢 𝙹𝚘𝚜𝚝𝚒𝚗
  ▢ *WA:* +5219992095479
  ▢ *PayPal:* paypal.me/TheShadowBrokers133
 
@@ -57,7 +57,7 @@ const handler = async (m, { conn, usedPrefix }) => {
   ];
   const document = doc[Math.floor(Math.random() * doc.length)];
   const Message = {
-    document: { url: `https://github.com/BrunoSobrino/TheMystic-Bot-MD` },
+    document: { url: `https://github.com/JOSTINofc/TheMystic-Bot-MD` },
     mimetype: `application/${document}`,
     fileName: `Documento`,
     fileLength: 99999999999999,
@@ -66,13 +66,13 @@ const handler = async (m, { conn, usedPrefix }) => {
       forwardingScore: 200,
       isForwarded: true,
       externalAdReply: {
-        mediaUrl: "https://github.com/BrunoSobrino/TheMystic-Bot-MD",
+        mediaUrl: "https://github.com/JOSTINofc/TheMystic-Bot-MD",
         mediaType: 2,
         previewType: "pdf",
         title: "The Mystic - Bot",
         body: "Repositorio - GitHub",
         thumbnail: imagen1,
-        sourceUrl: "https://github.com/BrunoSobrino/TheMystic-Bot-MD",
+        sourceUrl: "https://github.com/JOSTINofc/TheMystic-Bot-MD",
       },
     },
     caption: info,
