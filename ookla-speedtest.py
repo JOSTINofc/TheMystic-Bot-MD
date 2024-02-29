@@ -1250,7 +1250,7 @@ class Speedtest(object):
         self.servers.clear()
 
         for server_list in (servers, exclude):
-            for i, s in enumerate(server_list):
+            for i, s in enumerate(server_list): 
                 try:
                     server_list[i] = int(s)
                 except ValueError:
