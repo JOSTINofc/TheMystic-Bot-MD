@@ -8,7 +8,7 @@ import {createRequire} from 'module';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 const require = createRequire(__dirname);
-const folders = ['.', ...Object.keys(require(path.join(__dirname, './package.json')).directories)];
+const folders = ['.', ...Object.keys(require(path.join(__dirname, './package.json')).directories)]; 
 const files = [];
 for (const folder of folders) {
   for (const file of fs.readdirSync(folder).filter((v) => v.endsWith('.js'))) {
