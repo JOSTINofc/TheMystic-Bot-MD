@@ -4,7 +4,7 @@ window.onload = () => {
     const html = document.createElement('span');
     html.className = 'msg';
     html.innerHTML = obj;
-    chat.appendChild(html);
+    chat.appendChild(html); 
   }
 
   window.onclick = () => addMsg(12);
