@@ -1,8 +1,4 @@
-# `𝙏𝙃𝙀 𝙈𝙔𝙎𝙏𝙄𝘾 - 𝘽𝙊𝙏` 
-
-### `▢ CUENTAS OFICIALES`
-
-[ 🔗 ] https://www.atom.bio/theshadowbrokers-team
+# `𝗚𝗢𝗞𝗨 - 𝘽𝙊𝙏 - 𝗠𝗗` 
 
 ### `▢ GRUPOS DE SOPORTE (NO DISPONIBLE)`
 
