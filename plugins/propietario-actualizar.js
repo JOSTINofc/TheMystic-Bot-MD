@@ -4,8 +4,8 @@ const handler = async (m, { conn, text }) => {
   try {
           const stdout = execSync('git pull' + (m.fromMe && text ? ' ' + text : ''));
           let messager = stdout.toString()
-          if (messager.includes('Already up to date.')) messager = '_*< PROPIETARIO - UPDATE />*_\n\n*[ ✅ ] No hay actualizaciones pendientes.*'
-          if (messager.includes('Updating')) messager = '_*< PROPIETARIO - ACTUALIZAR />*_\n\n*[ ℹ️ ] Actualización finalizada exitosamente.*\n\n' + stdout.toString()
+          if (messager.includes('Already up to date.')) messager = '_*⚙️ACTUALIZANDO GOKUBOT-MD-UPDATE GOKUBOT-MD *_\n\n*[ ✨️ ] Already to update.*'
+          if (messager.includes('Updating')) messager = '_*⚙️ UPDATE GOKUBOT-MD *_\n\n*[ 💖 ]Se ah actualizado correctamente.*\n\n' + stdout.toString()
           conn.reply(m.chat, messager, m);
   } catch {      
  try {    
@@ -16,7 +16,7 @@ const handler = async (m, { conn, text }) => {
           .split('\n')
           .filter(line => line.trim() !== '')
           .map(line => {
-            if (line.includes('.npm/') || line.includes('.cache/') || line.includes('tmp/') || line.includes('MysticSession/') || line.includes('npm-debug.log')) {
+            if (line.includes('.npm/') || line.includes('.cache/') || line.includes('tmp/') || line.includes('GokuSession/') || line.includes('npm-debug.log')) {
               return null;
             }
             return '*→ ' + line.slice(3) + '*';
