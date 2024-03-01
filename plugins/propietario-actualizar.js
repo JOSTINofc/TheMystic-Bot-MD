@@ -23,13 +23,13 @@ const handler = async (m, { conn, text }) => {
           })
           .filter(Boolean);
         if (conflictedFiles.length > 0) {
-          const errorMessage = `_*< PROPIETARIO - ACTUALIZAR />*_\n\n*[ ℹ️ ] Se han hecho cambios locales en archivos del bot que entran en conflicto con las actualizaciones del repositorio. Para actualizar, reinstala el bot o realiza las actualizaciones manualmente.*\n\n*Archivos en conflicto:*\n\n${conflictedFiles.join('\n')}.*`;
+          const errorMessage = `_⚙️ UPDATE*_\n\n*[ ❗ ] Se han hecho cambios locales en archivos del bot que entran en conflicto con las actualizaciones del repositorio. Para actualizar, reinstala el bot o realiza las actualizaciones manualmente.*\n\n*Archivos en conflicto:*\n\n${conflictedFiles.join('\n')}.*`;
           await conn.reply(m.chat, errorMessage, m);  
         }
       }
   } catch (error) {
     console.error(error);
-    let errorMessage2 = '_*< PROPIETARIO - ACTUALIZAR />*_\n\n*[ ℹ️ ] Ocurrió un error. Por favor, inténtalo de nuevo más tarde.*';
+    let errorMessage2 = '_*⚙️ UPDATE*_\n\n*[ ❗ ] Ocurrió un error. Por favor, inténtalo de nuevo más tarde.*';
     if (error.message) {
       errorMessage2 += '\n*- Mensaje de error:* ' + error.message;
     }
