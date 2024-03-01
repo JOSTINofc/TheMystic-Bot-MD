@@ -5,7 +5,7 @@ const handler = async (m, { conn, text }) => {
           const stdout = execSync('git pull' + (m.fromMe && text ? ' ' + text : ''));
           let messager = stdout.toString()
           if (messager.includes('Already up to date.')) messager = '_*⚙️ACTUALIZANDO GOKUBOT-MD-UPDATE GOKUBOT-MD *_\n\n*[ ✨️ ] Already to update.*'
-          if (messager.includes('Updating')) messager = '_*⚙️ UPDATE GOKUBOT-MD *_\n\n*[ 💖 ]Se ah actualizado correctamente.*\n\n' + stdout.toString()
+          if (messager.includes('Updating')) messager = '_*⚙️ UPDATE GOKUBOT-MD*_\n\n*[ 💖 ]Se ah actualizado correctamente.*\n\n' + stdout.toString()
           conn.reply(m.chat, messager, m);
   } catch {      
  try {    
