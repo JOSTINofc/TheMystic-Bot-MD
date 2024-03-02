@@ -11,15 +11,17 @@ global.botnumber = ""
 global.confirmCode = ""
 
 global.owner = [
-  ['593939005387', '💥 Creator💫', true],
+  ['593939005387', '👑 Creador 👑', true],
   ['5491130182250', '💖 Owner Ofc', true],
   ['573013482814', '🧸 Desarrollador', true],
   ['595981477001', 'Alex', true]]
 
 global.goku = [
-  ["593939005387", '💥 Creator💫', 1],
+  ["593939005387", '👑 Creador 👑', 1],
   ["5491130182250", '💖 Owner', 1],
-  ["573013482814", '🧸 Desarrollador', 1]]
+  ["5492266466080", 'Agradecimiento 🌿', 1],
+  ["573013482814", '🧸 Desarrollador', 1],
+  ["573013114854", '⚡️ Editor Ofc', 1]]
 
 
 global.vs = 'V2'
