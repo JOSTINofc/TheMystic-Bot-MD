@@ -6,7 +6,7 @@ let fileName;
 let apiUrl;
 let enviando = false;
 const handler = async (m, { command, usedPrefix, conn, text }) => {
-  if (!text) throw `_*< DESCARGAS - PLAY v2 />*_\n\n*[ ℹ️ ] Hace falta el título del video de YouTube.*\n\n*[ 💡 ] Ejemplo:* _${usedPrefix + command} Good Feeling - Flo Rida_\n\n*[ 💡 ] Ejemplo 2:* _${usedPrefix + command} https://youtu.be/JLWRZ8eWyZo?si=EmeS9fJvS_OkDk7p_`;
+  if (!text) throw `_*< DESCARGAS - PLAY v2 />*_\n\n*[ ❗ ] Hace falta el título del video de YouTube.*\n\n*[ 💡 ] Ejemplo:* _${usedPrefix + command} Good Feeling - Flo Rida_\n\n*[ 💡 ] Ejemplo 2:* _${usedPrefix + command} https://youtu.be/JLWRZ8eWyZo?si=EmeS9fJvS_OkDk7p_`;
 if (enviando) return;
     enviando = true
   try {
@@ -27,7 +27,7 @@ if (enviando) return;
 
     if (!data.resultado || !data.resultado.url) {
       enviando = false;
-      throw `_*< DESCARGAS - PLAY V2 />*_\n\n*[ ℹ️ ] Ocurrió un error. Por favor, inténtalo de nuevo más tarde.*`;
+      throw `_*< DESCARGAS - PLAY V2 />*_\n\n*[ ❗ ] Ocurrió un error. Por favor, inténtalo de nuevo más tarde.*`;
     } else {
       try {      
         if (command === 'play.1') { // play.1 con CFROS API v1 ytmp3
@@ -56,7 +56,7 @@ if (enviando) return;
             }
           } catch {
             enviando = false;
-            throw `_*< DESCARGAS - PLAY V2 />*_\n\n*[ ℹ️ ] Ocurrió un error. Por favor, inténtalo de nuevo más tarde.*`;
+            throw `_*< DESCARGAS - PLAY V2 />*_\n\n*[ ❗ ] Ocurrió un error. Por favor, inténtalo de nuevo más tarde.*`;
           }
        }
     }
@@ -69,11 +69,11 @@ if (enviando) return;
       enviando = false;
     } else {
       enviando = false;
-      throw `_*< DESCARGAS - PLAY V2 />*_\n\n*[ ℹ️ ] Ocurrió un error. Por favor, inténtalo de nuevo más tarde.*`;
+      throw `_*< DESCARGAS - PLAY V2 />*_\n\n*[ ❗ ] Ocurrió un error. Por favor, inténtalo de nuevo más tarde.*`;
     }
   } catch (error) {
     enviando = false;
-    throw `_*< DESCARGAS - PLAY V2 />*_\n\n*[ ℹ️ ] Ocurrió un error. Por favor, inténtalo de nuevo más tarde.*`;
+    throw `_*< DESCARGAS - PLAY V2 />*_\n\n*[ ❗ ] Ocurrió un error. Por favor, inténtalo de nuevo más tarde.*`;
   }
 };
 handler.command = ['play.1', 'play.2'];
