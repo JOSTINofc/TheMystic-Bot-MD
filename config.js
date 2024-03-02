@@ -11,10 +11,10 @@ global.botnumber = ""
 global.confirmCode = ""
 
 global.owner = [
-  ['593939005387', '💥𝐂𝐑𝐄𝐀𝐃𝐎𝐑💫', true],
-  ['5491130182250', '💖𝙾𝚆𝙽𝙴𝚁 𝙾𝙵𝙲💖', true],
+  ['593939005387', '💥 Creator💫', true],
+  ['5491130182250', '💖 Owner Ofc💖', true],
   ['51940617554', '💫 Mystic - Collaborator 2 💫', true],
-  ['573013482814', '🧸𝙾𝚆𝙽𝙴𝚁', true]]
+  ['573013482814', '🧸 Desarrollador', true]]
 
 global.suittag = ['5219993404349'];
 global.prems = ['51995386439'];
