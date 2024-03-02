@@ -16,6 +16,8 @@ global.owner = [
   ['51940617554', '💫 Mystic - Collaborator 2 💫', true],
   ['573013482814', '🧸 Desarrollador', true]]
 
+global.vs = 'V2'
+
 global.suittag = ['5219993404349'];
 global.prems = ['51995386439'];
 
