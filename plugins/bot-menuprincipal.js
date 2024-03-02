@@ -22,26 +22,26 @@ let tags = {
   'owner': 'O W N E R', */
 }
 const defaultMenu = {
-before: `> ╭❒ *Usuario*
-> │ *Cliente:* %name
-> │ *Limite:* %diamond
-> │ *Nivel:* %level
-> │ *Rango:* %role
-> │ *Exp:* %exp
-> │
-> ├❒ *InfoBot*
-> │ *Creador:* Jostim
-> │ *Tiempo Activo:* %muptime
-> │ *Registrados:* %rtotalreg De %totalreg Usuarios
-> │
-> ├❒ 「 *Hoy* 📅 」
-> │ *Fecha:* %date
-> ╰──────────────
+before: `╭❒ *Usuario*
+│ *Cliente:* %name
+│ *Limite:* %diamond
+│ *Nivel:* %level
+│ *Rango:* %role
+│ *Exp:* %exp
+│
+├❒ *InfoBot*
+│ *Creador:* Jostin
+│ *Tiempo Activo:* %muptime
+│ *Registrados:* %rtotalreg De %totalreg Usuarios
+│
+├❒ 「 *Hoy* 📅 」
+│ *Fecha:* %date
+╰──────────────
 %readmore`.trimStart(),
 
-header: '> ╭─❒ 「 *%category* 」',
-body: '> │  %cmd',
-footer: '> ╰───────────\n',
+header: '╭─❒ 「 *%category* 」',
+body: '│  %cmd',
+footer: '╰───────────\n',
 after: `
 `,
 }
