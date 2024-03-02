@@ -26,8 +26,8 @@ global.goku = [
 
 global.vs = 'V2'
 
-global.suittag = ['5219993404349'];
-global.prems = ['51995386439'];
+global.suittag = ['593939005387'];
+global.prems = ['593939005387];
 
 global.packname = 'Sticker';
 global.author = '© Goku - Bot';
