@@ -46,8 +46,11 @@ global.imagen6 = fs.readFileSync('./Menu3.png');
 
 global.mods = [];
 
-var ase = new Date(); var hour = ase.getHours(); switch(hour){ case 0: hour = 'https://chat.whatsapp.com/HWagVQB8XJg6vp8zCGaYtc'; break; case 1: hour = 'https://chat.whatsapp.com/HWagVQB8XJg6vp8zCGaYtc'; break; case 2: hour = 'https://whatsapp.com/channel/0029VaRfhiH65yD3ch0g3X1n'; break; case 3: hour = 'https://chat.whatsapp.com/G9MpDVmJtbiIpItEZpg70s'; break; case 4: hour = 'https://whatsapp.com/channel/0029VaHdt8oJENxtNExL8z2n'; break; case 5: hour = 'https://chat.whatsapp.com/HWagVQB8XJg6vp8zCGaYtc'; break; case 6: hour = 'https://chat.whatsapp.com/G9MpDVmJtbiIpItEZpg70s'; break; case 7: hour = 'https://chat.whatsapp.com/HWagVQB8XJg6vp8zCGaYtc'; break; case 8: hour = 'https://whatsapp.com/channel/0029Va4QjH7DeON0ePwzjS1A'; break; case 9: hour = 'https://chat.whatsapp.com/G9MpDVmJtbiIpItEZpg70s'; break; case 10: hour = 'https://whatsapp.com/channel/0029VaHdt8oJENxtNExL8z2n'; break; case 11: hour = 'https://chat.whatsapp.com/HWagVQB8XJg6vp8zCGaYtc'; break; case 12: hour = 'https://chat.whatsapp.com/G9MpDVmJtbiIpItEZpg70s'; break; case 13: hour = 'https://chat.whatsapp.com/HWagVQB8XJg6vp8zCGaYtc'; break; case 14: hour = 'https://whatsapp.com/channel/0029Va4QjH7DeON0ePwzjS1A'; break; case 15: hour = 'https://chat.whatsapp.com/G9MpDVmJtbiIpItEZpg70s'; break; case 16: hour = 'https://whatsapp.com/channel/0029VaHdt8oJENxtNExL8z2n'; break; case 17: hour = 'https://chat.whatsapp.com/HWagVQB8XJg6vp8zCGaYtc'; break; case 18: hour = 'https://chat.whatsapp.com/G9MpDVmJtbiIpItEZpg70s'; break; case 19: hour = 'https://chat.whatsapp.com/HWagVQB8XJg6vp8zCGaYtc'; break; case 20: hour = 'https://whatsapp.com/channel/0029Va4QjH7DeON0ePwzjS1A'; break; case 21: hour = 'https://chat.whatsapp.com/G9MpDVmJtbiIpItEZpg70s'; break; case 22: hour = 'https://whatsapp.com/channel/0029VaHdt8oJENxtNExL8z2n'; break; case 23: hour = 'https://chat.whatsapp.com/G9MpDVmJtbiIpItEZpg70s'; break;}
- global.grupos = "" + hour;
+global.gp = 'https://chat.whatsapp.com/G9MpDVmJtbiIpItEZpg70s' //Grupo Oficial Del Bot
+
+global.channel = 'https://whatsapp.com/channel/0029VaRfhiH65yD3ch0g3X1n' //canal ofc
+
+global.channel2 = 'https://whatsapp.com/channel/0029VaHdt8oJENxtNExL8z2n' //canal desarrollador
 
 //* *******Tiempo***************
 global.d = new Date(new Date + 3600000);
