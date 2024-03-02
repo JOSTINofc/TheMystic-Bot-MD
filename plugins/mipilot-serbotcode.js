@@ -13,4 +13,3 @@ async function handler(m, {usedPrefix}) {
   handler.tags = ['jadibot'];
   handler.private = true
   export default handler;
-  
