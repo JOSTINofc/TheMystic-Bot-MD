@@ -4,9 +4,10 @@ let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status
 let str = `*⚡️ GRUPO OFICIAL*
 _${gp}_
 
-*📍 CANALES OFICIALES*
+*📍 CANAL OFICIAL*
 ${channel}
 
+*🧸 CANAL SAKURABOT*
 ${channel2}`
 await conn.sendFile(m.chat, media, 'gata.mp4', str, fkontak)}
 
