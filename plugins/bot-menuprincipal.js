@@ -24,7 +24,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  const str = `${conn.user.jid == global.conn.user.jid ? '' : `➪𝖲𝖡-𝖲𝖴𝖡 𝖡𝖮𝖳: @${global.conn.user.jid.split`@`[0]}`}
 
 ╭═══〘✯✯✯✯✯✯✯✯✯〙═══╮
-║  ◉— *𝚂𝙰𝙺𝚄𝚁𝙰𝙱𝙾𝚃 : 𝙼𝙳 - 𝙾𝙵𝙲* —◉
+║  ◉— *𝙶𝙾𝙺𝚄𝙱𝙾𝚃 : 𝙼𝙳 - 𝙾𝙵𝙲* —◉
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡║
 ║➤ *𝗛ola, ${taguser}*
 ╰═══╡✯✯✯✯✯✯✯✯✯╞════╯
@@ -32,10 +32,10 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┏━━━━━━━━━━━━━━━━┓
 ┃ ⏤͟͟͞͞𝙄𝙉𝙁𝙊𝙍𝙈𝘼𝘾𝙄𝙊́𝙉
 ┗━━━━━━━━━━
-┣┅⟣✦ 𝘏𝘰𝘭𝘢, 𝘚𝘰𝘺 𝘚𝘢𝘬𝘶𝘳𝘢𝘉𝘰𝘵
-┣┅⟣✦ *Creador:* Diego
-┣┅⟣✦ *Numero:* +57 301 3114854
-┣┅⟣✦ *Bot Oficial:* +51 935 499 065
+┣┅⟣✦ 𝘏𝘰𝘭𝘢, 𝘚𝘰𝘺 GokuBot
+┣┅⟣✦ *Creador:* Jostin
+┣┅⟣✦ *Numero:* +593 939 005 387
+┣┅⟣✦ *Bot Oficial:* +595971684874
 ┣┅⟣✦ *Tiempo activo:* ${uptime}
 ┣┅⟣✦ *Usuarios regs:* ${rtotalreg}
 ┣┅⟣✦ *Usuarios totales:* ${rtotal}
@@ -49,7 +49,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┣┅⟣✦ *🧰Experiencia:* ${exp}
 ┣┅⟣✦ *⚓️Rango:* ${role}
 ┣┅⟣✦ *💎Diamantes:* ${limit}
-┣┅⟣✦ *👾SakuCoins:* ${money}
+┣┅⟣✦ *👾GokuCoins:* ${money}
 ┣┅⟣✦ *🪙Tokens:* ${joincount}
 ┣┅⟣✦ *🎟Premium:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
 ┗━━━━━━━━━━━━━━━━┛
@@ -549,7 +549,7 @@ ${readMore}
       conn.sendMessage(m.chat, {image: pp, caption: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net')}, {quoted: fkontak2});
     }
   } catch {
-    conn.reply(m.chat, '*[ ℹ️ ] Este menu tiene un error interno, por lo cual no fue posible enviarlo.*', m);
+    conn.reply(m.chat, '*[ ❗️ ] Este menu tiene un error interno, por lo cual no fue posible enviarlo.*', m);
   }
 };
 handler.command = /^(menu|menú|memu|memú|help|info|comandos|allmenu|2help|menu1.2|ayuda|commands|commandos|cmd)$/i;
