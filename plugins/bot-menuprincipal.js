@@ -34,13 +34,13 @@ before: `╭❒ *Usuario*
 │ *Tiempo Activo:* %muptime
 │ *Registrados:* %rtotalreg De %totalreg Usuarios
 │
-├❒ 「 *Hoy* 📅 」
+├❒ *Hoy* 📅
 │ *Fecha:* %date
 ╰──────────────
 %readmore`.trimStart(),
 
 header: '╭─❒ 「 *%category* 」',
-body: ' %cmd',
+body: '> %cmd',
 footer: '╰───────────\n',
 after: `
 `,
