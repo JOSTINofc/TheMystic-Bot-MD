@@ -14,7 +14,7 @@ global.owner = [
   ['593939005387', '👑 Creador 👑', true],
   ['5491130182250', '💖 Owner Ofc', true],
   ['573013482814', '🧸 Desarrollador', true],
-  ['50558124470'], '🍨 Ender', true],
+  ['50558124470', '🍨 Ender', true],
   ['595981477001', 'Alex', true]]
 
 global.goku = [
