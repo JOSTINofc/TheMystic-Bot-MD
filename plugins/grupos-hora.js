@@ -5,10 +5,7 @@ let str = `*⚡️ GRUPO OFICIAL*
 _${gp}_
 
 *📍 CANAL OFICIAL*
-${channel}
-
-*🧸 CANAL SAKURABOT*
-${channel2}`
+${channel}`
 await conn.sendFile(m.chat, media, 'gata.mp4', str, fkontak)}
 
 handler.command = /^grupos|linksk|gruposofc|gruposoficiales$/i
