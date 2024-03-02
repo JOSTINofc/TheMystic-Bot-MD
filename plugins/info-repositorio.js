@@ -4,7 +4,7 @@ const handler = async (m, { conn, args, usedPrefix }) => {
    const res = await fetch('https://api.github.com/repos/BrunoSobrino/TheMystic-Bot-MD');
    const json = await res.json();
    let txt = `_*< INFO - REPOSITORIO />*_\n\n`;
-      txt += `▢ *Nombre:* ${json?.name || 'TheMystic-Bot-MD'}\n\n`;
+      txt += `▢ *Nombre:* ${json?.name || 'Goku-Bot-MD'}\n\n`;
       txt += `▢ *Visitantes:* ${json?.watchers_count || '-'}\n\n`;
       txt += `▢ *Tamaño:* ${(json?.size / 1024).toFixed(2) || '-'} MB\n\n`;
       txt += `▢ *Actualización:* ${moment(json?.updated_at).format('DD/MM/YY - HH:mm:ss') || '-'}\n\n`;
