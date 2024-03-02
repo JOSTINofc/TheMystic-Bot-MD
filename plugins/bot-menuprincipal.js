@@ -21,11 +21,13 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
- const str = `${conn.user.jid == global.conn.user.jid ? '' : `┏━━━━━━━━━━━━━━━━┓
+ const str = `${conn.user.jid == global.conn.user.jid ? '' : `${taguser}
+
+┏━━━━━━━━━━━━━━━━┓
 ┃ ⏤͟͟͞͞𝙄𝙉𝙁𝙊𝙍𝙈𝘼𝘾𝙄𝙊́𝙉
 ┗━━━━━━━━━━
-┣┅⟣✦ *Creador:* Jostin
-┣┅⟣✦ *Numero:* +593 93 900 5387
+┣┅⟣✦ *Creador:* @593939005387
+┣┅⟣✦ *Colaborador:* @573013482814
 ┣┅⟣✦ *Tiempo activo:* ${uptime}
 ┣┅⟣✦ *Usuarios regs:* ${rtotalreg}
 ┣┅⟣✦ *Usuarios totales:* ${rtotal}
