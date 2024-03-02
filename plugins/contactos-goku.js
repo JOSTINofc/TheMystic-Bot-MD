@@ -5,4 +5,5 @@ this.sendContact(m.chat, data.map(([id, name]) => [id, name]), fkontak, { contex
 }
 
 handler.command = ['contactos', 'colaboradores']  
+handler.register = true
 export default handler
