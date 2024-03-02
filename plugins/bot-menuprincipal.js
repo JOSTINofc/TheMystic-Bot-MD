@@ -397,4 +397,4 @@ handler.help = ['menu'];
 handler.tags = ['menu'];
 handler.command = /^(menu|allmenu|menú|help|menucompleto)$/i;
 handler.register = true
-export default handler;
+export default handler
