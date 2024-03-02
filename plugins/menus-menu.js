@@ -15,22 +15,21 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     await conn.reply(m.chat, '*!𝗣𝗿𝗼𝘅𝗶𝗺𝗮𝗺𝗲𝗻𝘁𝗲 𝗦𝗲 𝗘𝗻𝘃𝗶𝗮𝗿𝗮́ 𝗘𝗹 𝗠𝗲𝗻𝘂́.*',m, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: '👋🏻 ¡𝐇𝐨𝐥𝐚!', body: '🦋 𝖫𝗂𝗇𝖽𝗈 𝖠𝗆𝖺𝗇𝖾𝖼𝖾𝗋 🧸', sourceUrl: global.md, thumbnail: await (await fetch(pp)).buffer() }}})
 //m.react('📍');
     await conn.sendMessage(m.chat, { react: { text: '🚀', key: m.key } })
-  let txt =`╭✨️⸽⃕𝕾𝖆𝖐𝖚𝖗𝖆-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊-𝕸𝕯🍁⃨፝⃕✰
-┋ 🧸𝐃𝐮𝐞𝐧̃𝐨 𝐃𝐞𝐥 𝐁𝐨𝐭: Diego
-┋ 👤𝐂𝐥𝐢𝐞𝐧𝐭𝐞: ${taguser}
-┋ 🥀𝐁𝐨𝐭 𝐎𝐟𝐢𝐜𝐢𝐚𝐥: ${(conn.user.jid == global.conn.user.jid ? '' : `@${global.conn.user.jid.split`@`[0]}`) || '𝚂𝙾𝚈 𝚄𝙽 𝙱𝙾𝚃 𝙾𝙵𝙲'}
-┋ 🌿𝐃𝐚𝐭𝐞: ${date}
-┋ 👥️️𝐔𝐬𝐮𝐚𝐫𝐢𝐨𝐬 𝐑𝐞𝐠𝐢𝐬𝐭𝐫𝐚𝐝𝐨𝐬: ${rtotal}
-┋ 🦋𝐕𝐞𝐫𝐬𝐢𝐨𝐧 𝐃𝐞 𝐒𝐚𝐤𝐮𝐫𝐚: ${vs}
+  let txt =`*╭✨️⸽⃕GOKUBOTLITE-MD🍁⃨፝⃕✰*
+┋ 🧸Autor: Jostim
+┋ 👤User: ${taguser}
+┋ 🌿Fecha: ${date}
+┋ 👥️️Usuario Registrados: ${rtotal}
+┋ 🦋Versión Del Bot: ${vs}
 ╰━━━━━━━✦✗✦━━━━━━━━
 
 ╭━━━━･❪ *INFO USER* ❫ ･━━━━╮
-┃✣➸ 📍𝐋𝐞𝐯𝐞𝐥𝐮𝐩: ${level}
-┃✣➸ 🧸𝐄𝐱𝐩: ${exp}
-┃✣➸ ⚡️𝐑𝐚𝐧𝐠𝐨: ${role}
-┃✣➸ 💎𝐃𝐢𝐚𝐦𝐚𝐧𝐭𝐞: ${limit}
-┃✣➸ 💰𝐒𝐚𝐤𝐮𝐂𝐨𝐢𝐧𝐬: ${money}
-┃✣➸ 🪙𝐌𝐨𝐧𝐞𝐝𝐚𝐬: ${joincount}
+┃✣➸ 📍Levelup: ${level}
+┃✣➸ 🧸Exp: ${exp}
+┃✣➸ ⚡️Rango: ${role}
+┃✣➸ 💎Diamantes: ${limit}
+┃✣➸ 💰GokuCoins: ${money}
+┃✣➸ 🪙Token: ${joincount}
 ╰•°• ✾ •°••°• ✾ •°••°• ✾ •°•°••°• ✾ •°•
 
 ╭━━━━･❪ *SOLUCIONES* ❫ ･━━━━╮
@@ -41,11 +40,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ╰•°• ✾ •°••°• ✾ •°••°• ✾ •°•°••°• ✾ •°•
 
 ╭━━━━･❪ *INFO BOT* ❫ ･━━━━╮
-┃📍 _!cuentas_
-┃📍 _!saludo_
-┃📍 _!velocidad_
-┃📍 _!metodo_
-┃📍 _!totalf_
 ┃📍 _!instalarbot_
 ┃📍 _!terminosycondiciones_
 ┃📍 _!grupos_
@@ -54,9 +48,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┃📍 _!speedtest_
 ┃📍 _!donar_
 ┃📍 _!owner_
-┃📍 _!contactos_
-┃📍 _!database_
-┃📍 _!colaboradores_
 ┃📍 _!script_
 ┃📍 _Bot_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
 ╰•°• ✾ •°••°• ✾ •°••°• ✾ •°•°••°• ✾ •°•
