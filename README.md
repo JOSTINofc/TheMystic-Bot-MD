@@ -94,7 +94,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
 ### `Colaboradores Del Bot 💖`
 <a href="https://github.com/JOSTINofc/TheMystic-Bot-MD/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=JOSTINofc/ThrMystic-Bot-MD" /> 
+<img src="https://contrib.rocks/image?repo=JOSTINofc/TheMystic-Bot-MD" /> 
 </a>
 
   
