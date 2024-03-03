@@ -87,18 +87,15 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
  ### `▢ DUDAS SOBRE EL BOT?, 𝖢𝖮𝖭𝖳𝖠𝖢T𝖠𝖬𝖤`
 <a href="http://wa.me/593939005387" target="blank"><img src="https://img.shields.io/badge/JOSTIN_CREADOR-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
-## `▢ COLABORADORES DEL BOT` 
-<a href="https://github.com/Enzito-Vase"><img src="https://github.com/Enzito-Vase.png" width="100" height="100" alt="Enzo"/></a>
 
-
-## `▢ AGRADECIMIENTOS & CREDITOS` 
-<div><button id="boton" type="button">games-wabot-md - By BochilGaming </button></div>
-<a href="https://github.com/BochilGaming/games-wabot-md/tree/multi-device"><img src="https://github.com/BochilGaming.png" width="150" height="150" alt="BochilGaming"/></a>
-<div><button id="boton" type="button">Baileys - By WhiskeySockets & adiwajshing</button></div>
-<a href="https://github.com/WhiskeySockets/Baileys"><img src="https://github.com/WhiskeySockets.png" width="150" height="150" alt="adiwajshing"/></a>
-
-## `▢ EDITOR & PROPIETARIO DEL BOT` 
+### `Editor Y Propoetario Del Bot 💖` 
 <a href="https://github.com/JOSTINofc"><img src="https://github.com/JOSTINofc.png" width="250" height="250" alt="JOSTINofc"/></a>
 <a href="https://github.com/Jostin207"><img src="https://github.com/Jostin207.png" width="250" height="250" alt="Jostin207"/></a>
+
+### `Colaboradores Del Bot 💖`
+<a href="https://github.com/JOSTINofc/TheMystic-Bot-MD/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=JOSTINofc/ThrMystic-Bot-MD" /> 
+</a>
+
   
 `GokuBot-MD - By Jostin-Jostina`
