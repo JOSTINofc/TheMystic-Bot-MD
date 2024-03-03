@@ -21,7 +21,7 @@ const handler = async (m, {conn}) => {
 };
 handler.help = ['estado'];
 handler.tags = ['main'];
-handler.command = /^(estado|status|estate|state|stado|stats|runtime|uptime)$/i;
+handler.command = /^(estado)$/i;
 export default handler;
 function clockString(ms) {
   const d = isNaN(ms) ? '--' : Math.floor(ms / 86400000);
