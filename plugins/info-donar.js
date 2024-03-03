@@ -1,6 +1,4 @@
-/* ⚠ POR FAVOR NO MODIFIQUES NADA DE AQUÍ ⚠ */
-
-import {generateWAMessageFromContent} from '@whiskeysockets/baileys';
+ /*import {generateWAMessageFromContent} from '@whiskeysockets/baileys';
 import fs from 'fs';
 const handler = async (m, {conn, usedPrefix, command}) => {
   const name = await conn.getName(m.sender);
@@ -32,4 +30,4 @@ const handler = async (m, {conn, usedPrefix, command}) => {
 handler.help = ['donasi'];
 handler.tags = ['info'];
 handler.command = /^dona(te|si)|donar|apoyar$/i;
-export default handler;
+export default handler;*/
