@@ -1,4 +1,4 @@
-const handler = async (m, {conn, usedPrefix}) => {
+/*const handler = async (m, {conn, usedPrefix}) => {
   const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
   const document = doc[Math.floor(Math.random() * doc.length)];
   const text = `*—◉ 𝚃𝚄𝚃𝙾𝚁𝙸𝙰𝙻 𝙱𝙾𝚇𝙼𝙸𝙽𝙴 𝙷𝙾𝚂𝚃*
@@ -65,4 +65,4 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
   conn.sendMessage(m.chat, buttonMessage, {quoted: m});
 };
 handler.command = ['instalarbot', 'instalarbot'];
-export default handler;
+export default handler;*/
