@@ -16,17 +16,16 @@ global.owner = [
  ['593939005387', '𝙊𝙬𝙣𝙚𝙧 2 🌼', true],
  ['50558124470', '𝗢𝘄𝗻𝗲𝗿 𝗧𝗮𝗹𝗹𝘆 🍧', true]]
 
+
 global.suittag = ['5219993404349'];
 global.prems = ['51995386439'];
 
 global.packname = 'Sticker';
-global.packname = '🍁 𝖣𝗂𝖺𝖻𝗅𝖺 : 𝖡𝗈𝗍🪷';
 global.author = '𝐃𝐢𝐚𝐛𝐥𝐚𝐁𝐨𝐭';
 global.wm = '🍁 𝕯𝖎𝖆𝖇𝖑𝖆𝕭𝖔𝖙-𝕸𝕯 🌸';
-global.sk = '🌹 𝐃𝐢𝐚𝐛𝐥𝐚𝐌𝐃 💮';
-global.titulowm = '🍁 𝖣𝗂𝖺𝖻𝗅𝖺 : 𝖡𝗈𝗍🪷';
-global.titulowm2 = `𝖣𝗂𝖺𝖻𝗅𝖺 : 𝖡𝗈𝗍 - 𝖬𝖣 ☘️`
-global.igfg = '𝘋𝘪𝘢𝘣𝘭𝘪𝘵𝘢𝘉𝘰𝘵-𝘔𝘋';
+global.titulowm = '𝖣𝗂𝖺𝖻𝗅𝖺 : 𝖡𝗈𝗍 - 𝖬𝖣 ☘️';
+global.titulowm2 = `🌹 𝐃𝐢𝐚𝐛𝐥𝐚𝐌𝐃 💮`
+global.igfg = 'Diabla - Bot - MD';
 global.wait = '*[ ⏳ ] Cargando...*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
@@ -51,11 +50,11 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\n🍁 𝕯𝖎𝖆𝖇𝖑𝖆𝕭𝖔𝖙-𝕸𝕯 🌸`;
-global.gt = '🍁 𝕯𝖎𝖆𝖇𝖑𝖆𝕭𝖔𝖙-𝕸𝕯 🌸';
-global.mysticbot = '🍁 𝕯𝖎𝖆𝖇𝖑𝖆𝕭𝖔𝖙-𝕸𝕯 🌸';
-global.md = 'https://github.com/EnzoVaselevich/DiablaBot-MD-OFC';
-global.mysticbot = 'https://github.com/EnzoVaselevich/DiablaBot-MD-OFC';
+global.wm2 = `${dia} ${fecha}\nThe Mystic - Bot`;
+global.gt = 'The Mystic - Bot';
+global.mysticbot = 'The Mystic - Bot';
+global.md = 'https://github.com/EnzoVaselevich/DiablaBot-MD-OFC-';
+global.mysticbot = 'https://github.com/EnzoVaselevich/DiablaBot-MD-OFC-';
 global.waitt = '*[ ⏳ ] Cargando...*';
 global.waittt = '*[ ⏳ ] Cargando...*';
 global.waitttt = '*[ ⏳ ] Cargando...*';
